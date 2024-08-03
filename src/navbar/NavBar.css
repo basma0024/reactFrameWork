@@ -1,0 +1,15 @@
+
+    .bg-na{
+        background-color: #2C3E50;
+        transition: padding 0.5s ease, box-shadow 0.3s ease;
+    }
+
+    .active {
+        background-color: #1ABC9C;
+        border-radius: 7px;
+    }
+ 
+
+    .bg-foot{
+        background-color: #1A252F;
+    }
