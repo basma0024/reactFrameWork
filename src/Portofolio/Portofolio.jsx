@@ -56,7 +56,7 @@ function Portfolio() {
           </div>
         </div>
 
-        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 mb-3">
+        <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-8 mb-3">
           {imgs.map((img, index) => (
             <div
               key={index}

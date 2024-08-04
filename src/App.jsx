@@ -3,14 +3,14 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css';
 import NavBar from './navbar/NavBar';
-import{createBrowserRouter, RouterProvider} from "react-router-dom";
+import{createBrowserRouter, createHashRouter, RouterProvider} from "react-router-dom";
 import LayOut from './LayOut/LayOut';
 import Home from './Home/Home';
 import About from './About/About';
 import Portofolio from './Portofolio/Portofolio';
 import Contact from './Contact/Contact';
 
-const x= createBrowserRouter([
+const x= createHashRouter([
  {element:<LayOut />,path:'', children:[
   {index:true , element: <Home />},
   {path:'about' , element: <About />},
